@@ -7,5 +7,6 @@ for i in range (1,7,1):
     print(f"Marks for student {i}")
     b=input("Enter the marks")
     a.append(b)
-
+a.sort()
 print(f"Maks for student are : {a}")
+
