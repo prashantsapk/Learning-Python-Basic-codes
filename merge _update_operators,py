@@ -1,0 +1,10 @@
+# merge and update operatpr
+
+dict1 = { "ram": 1 , 2:"hari"}
+dict2 = { 3 : "prashant" , 4:"laxmi"}
+
+print(dict1 | dict2) # this is how dictionary are merged
+
+with ( open("prashant.txt","w")as f1,open("prashant1.txt","w")as f2):
+    f1.write("Hello world")
+    f2.write("Hello world")
