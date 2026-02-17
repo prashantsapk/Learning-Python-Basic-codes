@@ -32,9 +32,7 @@ def even(n):
 onlyeven = filter(even,list1)
 print(list(onlyeven))
 
-# reduce # it pplies a rolling computation to sequential pair of elements.
-# its same like factorial problem you faced, like 4! = 1*2*3*4
-#now it will be like 2*3*4 then aftee it performs 2 x3 it will be 6 x 4 then it does again, like this it happens in pair or something like that
+# reduce() takes a list and reduces it to ONE single value.
 from functools import reduce
 def sum(a,b):
     return a+b
